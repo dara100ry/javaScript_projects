@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    /* display:flex; */
+    position: absolute;
+    border: solid 5px rgb(189, 189, 189);
+    border-style: inset;
+    border-radius: 15px;
+    margin-top: 5%;
+    width: 500px;
+    height: 580px;
+    text-align: center;
+}
+.input{
+    width: 400px;
+    height:40px ;
+    border: solid rgb(189, 189, 189);
+    border-radius: 8px;
+    margin: 10px;
+    padding-left: 10px;
+}
+.shortLine{
+
+    width: 77%;
+    margin-top: 10px;
+    border:solid 2px;
+}
+.btn{
+    width: 400px;
+    height:40px ;
+    background-color: blue;
+    color: aliceblue;
+    border: solid rgb(189, 189, 189);
+    border-radius: 8px;
+    margin-top: 35px;
+    border-style: inset;
+    font-size: large;
+    opacity: 50%;
+    
+}
+.links{
+    margin-top: 25px;
+    margin-bottom: -15px;
+    text-align: right;
+    padding-right: 50px;
+}
+#togglePassword,#togglePassword2{
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 23px;
+    cursor: pointer;
+}
+.line{
+    /* border: solid 5px rgb(201, 224, 233); */
+    background-color: #a9a9a9;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 10.2%;
+    margin-top:15px;
+    height: 5px;
+    overflow: hidden;
+}
+.colorLine{
+    height: 5px;
+    width: 0%;
+    border-radius: 10px;
+}
+.passwordGuide{
+    display: none;
+    font-size: small;
+    text-align: right;
+    margin-right: 10%;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    color: crimson;
+}
+.passwordDegree{
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 5px;
+}

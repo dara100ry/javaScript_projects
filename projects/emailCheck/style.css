@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    position: absolute;
+    width: 30%;
+    top: 50%;
+    left: 33%;
+}
+
+input{
+    padding: 0.3em;
+    height: 2em;
+    border-color: skyblue;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+button{
+   position: relative;
+   background-color: skyblue;
+   color: rgb(0, 35, 236);
+   bottom : 10px;
+   height: 3em;
+   padding-top: 5px;
+   font-size: large;
+   margin-top: 20px;
+}
