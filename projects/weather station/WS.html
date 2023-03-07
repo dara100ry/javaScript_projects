@@ -1,0 +1,41 @@
+<!-- first connect to internet -->
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="WS.css">
+    <title>weater station</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">weateher stats</div>
+        <input type="text" class="input" placeholder="enter your City">
+
+        <button class="btnCheck">submit</button>
+
+        <div class="temperature">
+            <img src="https://img.icons8.com/cotton/100/null/thermometer--v1.png"/>
+            <div class="degree">0.00°C</div>
+        </div>
+        <div class=bottomContainer>
+            <div class="content">
+                <img class="img" src="https://img.icons8.com/stickers/80/null/temperature-low.png"/>
+                <div class="cool">cool</div>
+            </div>
+            <div class="content">
+                <img class="img" src="https://img.icons8.com/stickers/80/null/temperature-high.png"/>
+                <div class="warm">warm</div>
+            </div>
+        </div>
+        <div class="pressure">
+            <img src="https://img.icons8.com/stickers/80/null/barometer-gauge.png"/>
+           <div class="pressureDegree">pressure</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="WS(promise).js"></script>
+
+</body>
+</html>

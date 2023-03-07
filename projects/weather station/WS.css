@@ -1,0 +1,102 @@
+html {
+    height: 100%;
+  }
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(19, 62, 141),rgb(88, 136, 225));
+}
+.container{
+    width: 300px;
+    height: 570px;
+    border: solid 3px skyblue;
+    border-radius: 20px;
+    background-color: skyblue;
+    border-style:outset ;
+    text-align: center;
+}
+.title{
+     margin-top: 20px;
+     font-size:38px;
+     font-style:unset ;
+     color: rgb(19, 62, 141);
+     font-family: 'Roboto', sans-serif;
+}
+.input{
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    border: solid white;
+    border-style: inset;
+    height: 20px;
+    width: 190px;
+}
+.btnCheck{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: solid white;
+    border-style: outset;
+    height: 30px;
+    width: 198px;
+}
+.temperature{
+    width: 120px;
+    height: 180px;
+    border-style:groove;
+    border-radius: 100px;
+    background-color: aliceblue;
+    margin: 10px 90px ; 
+    padding-top: 10px;
+}
+.degree{
+    margin-top: 10px;
+    font-size: 25px;
+    color: rgb(26, 87, 183);
+}
+.bottomContainer{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    border-style: groove;
+    background-color: aliceblue;
+    width: 130px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 12px;
+    text-align: left;
+}
+.img{
+    margin: 15px -10px;
+}
+.cool{
+    margin: 30px 5px;
+    font-size: 25px;
+    color: #70BFFF;
+}
+.warm{
+    margin: 30px 0px;
+    font-size: 25px;
+    color: #F4665C;
+}
+.pressure{
+    background-color: aliceblue;
+    height: 80px;
+    width: 280px;
+    margin: 10px 5px;
+    border-radius: 12px;
+    text-align: left;
+    border-style: groove;
+}
+.pressureDegree{
+    margin-top: -70px;
+    margin-left: 90px;
+    font-size:36px;
+    font-style:unset ;
+    color:rgb(26, 87, 183);
+}
